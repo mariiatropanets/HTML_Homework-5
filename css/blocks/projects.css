@@ -1,0 +1,38 @@
+.projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  background-color: #fff;
+}
+
+.project__content {
+  padding: 20px 24px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.project__title {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+}
+
+.project__category {
+  margin: 0;
+
+  line-height: 30px;
+
+  color: #757575;
+}

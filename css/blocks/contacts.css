@@ -1,0 +1,30 @@
+.contacts {
+  display: flex;
+}
+
+.contacts--header {
+  flex-direction: row;
+  line-height: 16.41px;
+  gap: 50px;
+}
+.contacts--footer {
+  flex-direction: column;
+  line-height: 21px;
+  gap: 9px;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+
+  letter-spacing: 0.02em;
+  color: var(--color--gray);
+  text-decoration: none;
+}
+
+.contacts__link--address {
+  font-style: normal;
+  color: #fff;
+}
