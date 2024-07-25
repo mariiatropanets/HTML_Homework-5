@@ -16,7 +16,7 @@
 @import "blocks/footer.css";
 @import "blocks/projects.css";
 @import "blocks/filters.css";
-
+@import "blocks/modal.css";
 
 * {
   box-sizing: border-box;
