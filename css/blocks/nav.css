@@ -26,8 +26,10 @@
   letter-spacing: 0.02em;
   color: var(--color--text-black);
   text-decoration: none;
+
+  transition: color 0.3s;
 }
-.nav__link:hover,
-.contacts__link:hover {
+.nav__link:hover
+ {
   color: var(--color--blue);
 }
